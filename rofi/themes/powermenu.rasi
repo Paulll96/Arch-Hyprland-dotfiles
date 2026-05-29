@@ -1,0 +1,33 @@
+@import "~/.config/rofi/config.rasi"
+
+window {
+    width: 45%;
+}
+
+listview {
+    lines: 2;
+    columns: 3;
+
+    spacing: 16px;
+    cycle: false;
+    dynamic: true;
+    layout: vertical;
+
+    scrollbar: false;
+}
+
+element {
+    orientation: vertical;
+
+    padding: 20px;
+
+    border-radius: 18px;
+}
+
+element-icon {
+    size: 64px;
+}
+
+element-text {
+    horizontal-align: 0.5;
+}
