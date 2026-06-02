@@ -10,6 +10,7 @@ listview {
 }
 window {
     width: 65%;
+    height:75%;
 }
 
 element {

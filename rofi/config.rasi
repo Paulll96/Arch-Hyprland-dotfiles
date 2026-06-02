@@ -15,11 +15,11 @@
 }
 
 window {
-    width: 35%;
+    width: 25%;
     location: center;
-
+    height: 55%;
     border: 2px;
-    padding: 18px;
+    padding: 12px;
     border-color: @primary;
 
     border-radius: 18px;
@@ -31,7 +31,7 @@ window {
 
 
 mainbox {
-    padding: 14px;
+    padding: 8px;
 }
 
 inputbar {
@@ -54,7 +54,7 @@ entry {
 }
 
 listview {
-    lines: 10;
+    lines: 7;
     columns: 1;
 
     spacing: 8px;
@@ -64,9 +64,9 @@ listview {
 
 element {
 
-    padding: 16px;
+    padding: 6px;
 
-    border-radius: 16px;
+    border-radius: 13px;
 
     background-color: transparent;
 }

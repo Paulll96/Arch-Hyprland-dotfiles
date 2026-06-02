@@ -17,12 +17,14 @@ window#waybar {
 #custom-launcher {
     background: @primary;
     color: @inverse_primary;
-    padding: 0 16px;
+    padding: 5px 15px;
     border-radius: 20px;
     margin: 4px;
 }
 
 tooltip {
+	border-radius: 12px;
+    padding: 8px;
   background: @background;
   border: 1px solid rgba(100, 114, 125, 0.5);
 }
@@ -31,13 +33,16 @@ tooltip label {
 }
 
 #workspaces button {
-    padding: 2px 5px;
-    margin: 2px;
+    min-width: 20px;
+    min-height: 0;
+
+    padding: 5px 10px;
+    margin: 5px;
 
     border-radius: 100px;
-    
+
     background: @primary;
-    color: #121212;
+    color: @inverse_primary;
 
     border: 1px solid rgba(0, 0, 0, 0.18);
 
@@ -45,12 +50,13 @@ tooltip label {
 }
 
 #workspaces button.active {
-    background: @primary;
-    color: #121212;
-    min-width: 30px;
-    /*border: 2px solid #000000;*/
+    min-width: 35px;   /* increase only width */
 
-    padding: 1px 10px; /* prevents size jump */
+    padding: 5px 10px; /* EXACTLY SAME AS NORMAL */
+    margin: 5px;       /* EXACTLY SAME AS NORMAL */
+
+    background: @primary;
+    color: @inverse_primary;
 }
 /*#mode, #clock, #battery {
     padding: 0 10px;
@@ -60,7 +66,7 @@ tooltip label {
     background: #64727D;
     border-bottom: 3px solid white;
 }*/
-
+#custom-powerprofile,
 #clock,
 #battery,
 #pulseaudio,
@@ -70,7 +76,7 @@ tooltip label {
     margin:5px;
     border-radius: 100px;
     background-color: @primary;
-    color: #121212
+    color:  @inverse_primary
 }
 
 /* #battery {
