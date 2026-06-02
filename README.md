@@ -12,6 +12,3 @@ My personal Arch Linux + Hyprland setup.
 - Starship
 - Zoxide
 
-## Screenshots
-
-(coming soon)
