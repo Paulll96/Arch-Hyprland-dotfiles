@@ -8,19 +8,32 @@
     min-height: 0;
 }
 
+/* 
 window#waybar {
 
     background: @transparent;
     color: @on_surface;
+ 
+}
+window#waybar {
+    background: rgba(20, 20, 30, 0.55);
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}*/
+window#waybar {
+    background: rgba(20, 20, 30, 0.25);
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-#custom-launcher {
+
+/* {
     background: @primary;
     color: @inverse_primary;
     padding: 5px 15px;
-    border-radius: 20px;
-    margin: 4px;
-}
+    border-radius: 100px;
+    margin: 5px;
+} */
 
 tooltip {
 	border-radius: 12px;
@@ -66,12 +79,36 @@ tooltip label {
     background: #64727D;
     border-bottom: 3px solid white;
 }*/
-#custom-powerprofile,
+#custom-launcher {
+
+font-family: "Symbols Nerd Font";
+	padding: 4px 15px 6px 15px;
+
+	margin: 5px;
+
+	border-radius: 100px;
+
+	background-color: @primary;
+
+	color: @inverse_primary;
+
+}
+#custom-powerprofile{
+font-family: "Symbols Nerd Font";
+ padding: 5px 15px;
+    margin:5px;
+    border-radius: 100px;
+    background-color: @primary;
+    color:  @inverse_primary
+
+}
+#custom-stopwatch,
 #clock,
 #battery,
 #pulseaudio,
 #network
 {
+    font-family: "Symbols Nerd Font";
     padding: 5px 15px;
     margin:5px;
     border-radius: 100px;
